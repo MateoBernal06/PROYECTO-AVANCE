@@ -10,10 +10,10 @@ function Menu(){
                 <img className="imagen_logo" src={Logo}></img>
             </div>
             <div className="boton_a">
-                <button className='boton' id='boton_registro' type='subtime'>Registro</button>
+                <a href="https://registro-delta.vercel.app/"><button className='boton' id='boton_registro' type='subtime'>Registro</button></a>
             </div>
             <div className="boton_b">
-                <button className='boton' id='boton_iniciar' type='subtime'>Iniciar sesion</button>
+                <a href="https://interfaces-login-mt.vercel.app/"> <button className='boton' id='boton_iniciar' type='subtime'>Iniciar sesion</button></a>
             </div>
             <div className="color_b">5</div>
         </div>
